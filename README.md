@@ -42,14 +42,14 @@
   ##### Versie controle
   
     python3 --version
-    ![python version check](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/python%20version%20check.png)
+   [python version check](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/python%20version%20check.png)
   ##### Versiecontrole pip:
     pip --version
-  ![pip version check](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/pip%20version%20check.png)
+  [pip version check](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/pip%20version%20check.png)
 
   #### Jupyter verificatie
   *Voer het commando "jupyter notebook" uit in de terminal.*
- ![jupyter version](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/juniper%20verificatie.png)
+ [jupyter version](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/juniper%20verificatie.png)
 
   #### IDLE verificatie
   *Typ "idle" in de terminal.*
