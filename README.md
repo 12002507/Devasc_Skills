@@ -227,6 +227,7 @@
      python3 -m pip freeze
      
 # LAB 2 – EXPLORE REST APIs WITH API SIMULATOR AND POSTMAN 
+[Lab 2 script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/juniper%20verificatie.png)
 # LAB 3 – PYTHON REVIEW – DEVELOPMENT TOOLS AND CLASSES 
 
 ## Explore Python Classes 
@@ -300,6 +301,8 @@
      -ssh versie 2 aanzetten
      -duplex en speed op poorten instellen
      - domain ingesteld
+   [Netwerk tekening](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/cisco.drawio.png)
+   [Ip plan](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/Ip%20plan.png)
  
   #### Proactively determine what is needed to ensure the continuity of the system and network infrastructure:
   
@@ -381,6 +384,8 @@
     -Connective test
     -SSH naar verschillende apparaten
     -TFTP wipe test op tijd
+   [config router](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/lab-RA08-R03)
+   [config switch](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/lab-RA08-SW01)
  
  ## LAB 5: Software Development and Design Content
  ### Software Version Control with Git  3.3.11
@@ -850,6 +855,7 @@ Uitvoeren
     connection.disconnect()
 ### Task verification:
     -Apparaten getest via visual studio code
+  [Netmiko scripts](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Netmiko%20lab%206%20scripten.py)
 ### Task troubleshooting:
     -Zorgen dat de username en password volledig correct is geschreven
     -Let op dat niet ieder commando gaat op switch op router bijvoorbeeld vlan's aanmaken.
