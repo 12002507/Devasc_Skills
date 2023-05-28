@@ -478,6 +478,7 @@ juiste link: git remote set-url origin https://github.com/12002507/devasc-study-
 
 #### Task verification: 
 Uitvoeren
+![lab5script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/lab5scripten.py)
 ## LAB 6 – Python Network automation with netmiko
 ### Task preparation and implementation:
 ### Part 1: Connecting to a single iOS device
