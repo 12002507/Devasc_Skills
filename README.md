@@ -387,8 +387,8 @@
    [config router](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/lab-RA08-R03)
    [config switch](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/lab-RA08-SW01)
  
- ## LAB 5: Software Development and Design Content
- ### Software Version Control with Git  3.3.11
+ # LAB 5: Software Development and Design Content
+ ### Part 1 Software Version Control with Git  
  ### Task preparation and implementation:
 #### Git repository configureren
 
@@ -447,7 +447,7 @@ juiste link: git remote set-url origin https://github.com/12002507/devasc-study-
     -token creeren  https://github.com/settings/tokens
     -git push origin branchnaam
 
-## Create a Python Unit Test 3.5.7 -3.6.6
+## Part 2: Create a Python Unit Test 3.5.7 
 ################################################################
 #
 ## Part 3: Parse Different Data Types with Python Cisco
