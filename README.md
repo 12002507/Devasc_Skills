@@ -42,11 +42,14 @@
   ##### Versie controle
   
     python3 --version
+    ![python version check](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/python%20version%20check.png)
   ##### Versiecontrole pip:
     pip --version
+  ![pip version check](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/pip%20version%20check.png)
 
   #### Jupyter verificatie
   *Voer het commando "jupyter notebook" uit in de terminal.*
+ ![jupyter version](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/juniper%20verificatie.png)
 
   #### IDLE verificatie
   *Typ "idle" in de terminal.*
@@ -121,6 +124,7 @@
 
   #### Jupyter Notebook
   *Voer het commando "jupyter notebook" uit in de opdrachtprompt om Jupyter Notebook te starten.*
+ 
 
   ## 1.4 Installatie van tools/packages op Ubuntu 22.04.01 LTS (verdiepingsopdracht)
   ### Task preparation and implementation
