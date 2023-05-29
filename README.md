@@ -866,9 +866,10 @@ Uitvoeren
     -Vm downloaden
     -Vm opstarten
     -Vm terug afluisten en vervolgens iso in disk drive 1 steken
-    -virtual network editor ip 192.168.56.0 geven
     -show ip int brief
-
+   [CSR1000 installatie]()
+   [csr1000 succesvol gui na installatie]()
+   
 ### Task verification:
     -Vm pingen van devasc in terminal
     -Op ip van de switch de webgui openen
@@ -877,8 +878,32 @@ Uitvoeren
     -cisco VM werkt niet goed in virtual box, vmware gebruiken
     -Grub Loading stage 2 : cisco booten via vga optie, andere werkt niet
 ## Part 2: Explore YANG Models
-
+### Task preparation and implementation:
+     Cd devnet-src/
+     Mkdir pyang
+    wget https://raw.githubusercontent.com/YangModels/yang/main/vendor/cisco/xe/1693/ietf-interfaces.yang
+[wget]()
+### Task verification:
+    Pyang -v : versie controle
+### Task troubleshooting:
+    Link github werkte niet, werkende link : https://github.com/YangModels/yang/blob/main/vendor/cisco/xe/1693/ietf-interfaces.yang
 ## Part 3: Use NETCONF to Access an IOS XE Device
+### Task preparation and implementation:
+    ssh connectie: ssh cisco@192.168.206.128
+    Netconf via ssh:  ssh cisco@192.168.206.128 -p 830 -s Netconf
+    script uitvoeren: python3 ncclient-netconf.py
+Script nccclient:
+[script]()
+
+### Task verification:
+    Ping -c 5 192.168.206.128
+    show platform software yang-management process
+    show Netconf-yang sessions
+    pip3 list --format=columns | more
+[running]()
+### Task troubleshooting:
+    ]]>]]> : deze niet toevoegen bij commando’s, komen van de router
+
 ## Part 4: Use RESTCONF to Access an IOS XE Device
 
 
