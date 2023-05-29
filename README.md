@@ -867,8 +867,8 @@ Uitvoeren
     -Vm opstarten
     -Vm terug afluisten en vervolgens iso in disk drive 1 steken
     -show ip int brief
-   [CSR1000 installatie]()
-   [csr1000 succesvol gui na installatie]()
+   [CSR1000 installatie](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/vmware%20installatie.png)
+   [csr1000 succesvol gui na installatie](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/cisco%20gui.png)
    
 ### Task verification:
     -Vm pingen van devasc in terminal
@@ -882,7 +882,7 @@ Uitvoeren
      Cd devnet-src/
      Mkdir pyang
     wget https://raw.githubusercontent.com/YangModels/yang/main/vendor/cisco/xe/1693/ietf-interfaces.yang
-[wget]()
+[wget](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/wget.png)
 ### Task verification:
     Pyang -v : versie controle
 ### Task troubleshooting:
@@ -893,17 +893,56 @@ Uitvoeren
     Netconf via ssh:  ssh cisco@192.168.206.128 -p 830 -s Netconf
     script uitvoeren: python3 ncclient-netconf.py
 Script nccclient:
-[script]()
+       
+    from ncclient import manager
+    import xml.dom.minidom
+
+    #connectie naar de VM
+    m = manager.connect(
+    host="192.168.206.128",
+     port=830,
+     username="cisco",
+     password="cisco123!",
+       hostkey_verify=False
+       )
+
+
+    print("#Supported Capabilities (YANG models):")
+    for capability in m.server_capabilities:
+     print(capability)
+     .............
+
+
+[script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/sciptncc7.py)
 
 ### Task verification:
     Ping -c 5 192.168.206.128
     show platform software yang-management process
     show Netconf-yang sessions
     pip3 list --format=columns | more
-[running]()
+[running](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/running%20processes.png)
 ### Task troubleshooting:
     ]]>]]> : deze niet toevoegen bij commando’s, komen van de router
 
 ## Part 4: Use RESTCONF to Access an IOS XE Device
+### Task preparation and implementation:
+   Restcof aanzetten:
+   
+    configure terminal
+    restconf
+   https aanzetten: 
+   
+    ip http secure-server
+    ip http authentication local
+
+
+Task troubleshooting:
+
+Task verification:
+
+    ssh cisco@192.168.56.101
+    ping -c 5 192.168.56.101
+    show platform software yang-management process
+   [script]()
 
 
