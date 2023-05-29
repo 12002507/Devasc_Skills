@@ -943,6 +943,6 @@ Task verification:
     ssh cisco@192.168.56.101
     ping -c 5 192.168.56.101
     show platform software yang-management process
-   [script]()
+   [script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/postmanscript.py)
 
 
