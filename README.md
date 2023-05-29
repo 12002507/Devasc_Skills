@@ -925,5 +925,24 @@ Script nccclient:
     ]]>]]> : deze niet toevoegen bij commando’s, komen van de router
 
 ## Part 4: Use RESTCONF to Access an IOS XE Device
+### Task preparation and implementation:
+   Restcof aanzetten:
+   
+    configure terminal
+    restconf
+   https aanzetten: 
+   
+    ip http secure-server
+    ip http authentication local
+
+
+Task troubleshooting:
+
+Task verification:
+
+    ssh cisco@192.168.56.101
+    ping -c 5 192.168.56.101
+    show platform software yang-management process
+   [script]()
 
 
