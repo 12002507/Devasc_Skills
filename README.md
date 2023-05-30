@@ -490,6 +490,29 @@ Uitvoeren
 [lab5script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/lab5scripten.py)
 ## LAB 6 – Python Network automation with netmiko
 ### Task preparation and implementation:
+
+##### python voorbeeld script, ieder script heeft deze belangrijke elementen
+        
+    from netmiko import ConnectHandler              *netmiko module importeren
+   	from getpass import getpass
+
+   	cisco1 = { 
+	   "device_type": "cisco_ios",              *Variabelen waar informatie staat over connecties met de apparaten zoals login gegevens
+    "host": "172.16.8.4",
+    "username": "admin",
+    "password": "Administrator123.",
+    }
+    
+     command = "show ip int brief",                 *Het commando dat wordt doorgestuurd
+
+     with ConnectHandler(**cisco1) as net_connect:
+     output = net_connect.send_command(command)     *output versturen
+
+    	print()                                     *informatie Printen op het scherm
+    	print(output)
+     
+     print()
+     ####
 ### Part 1: Connecting to a single iOS device
 #### Sending single show command
 
@@ -502,7 +525,7 @@ Uitvoeren
     "host": "172.16.8.4",
     "username": "admin",
     "password": "Administrator123.",
-}
+    }
     
      command = "show ip int brief", 
 
