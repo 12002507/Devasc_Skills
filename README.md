@@ -252,18 +252,42 @@
      Gui: Op de API klikken, try it out, vul het id van het boek en en execute
      
 ### Task troubleshooting:
-    401 Server response : Spaties weghalen bij api variabelen.
+    401 Server response : Spaties weghalen bij api variabelen wanneer je de naam veranderd van een boek
 ### Task verification
 ##### Voorbeeld get/books
 [getbooks]()
 ## Use Postman to Make API Calls to the API Simulator 
 ### Task preparation and implementation:
-
+ ##### Boeken lijsten via Get/books API
+    Maak een nieuwe request, vink GET aan, vul de URL in en druk op send
+ ##### Token via Post /loginViaBasic API
+    Selecteer POST , vul de URL in, Authorize met de credentials en druk op send
+ ##### Boek toevoegen via Post /book API     
+    1.Selecteer POST , vul de URL in, Authorize met type API key,vol X-API-KEY in en plak de token.
+    2.Bij authroization klik je op body, raw en vervolgens tekst in JSON
+    3.Vul het object in
+    {
+    "id": 4,
+    "title": "IPv6 Fundamentals",
+    "author": "Rick Graziani",
+    "isbn": "978 158144778"
+    }
+    4.Druk op send
+ 
 ### Task troubleshooting:
+    Postman verkeerde in een goede werking
 ### Task verification
+    Ga naar de eerste GET tab, druk op send en vervolgens op body
+
 ## Use Python to Add 100 Books to the API Simulator
 ### Task preparation and implementation:
+  ##### Het script bestaat uit 3 grote delen
+    1. Faker module: deze verzint random namen
+    2.Loop voor de faker module die ervoor zorgt dat deze 100x gebruikt wordt
+    3.De requesten om de boeken te maken
+   [100bookscript]()
 ### Task troubleshooting:
+    Het script werkte naar behoren
 ### Task verification
 [Lab 2 script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/juniper%20verificatie.png)
 # LAB 3 – PYTHON REVIEW – DEVELOPMENT TOOLS AND CLASSES 
