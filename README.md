@@ -230,15 +230,17 @@
 ## Explore API Documentation Using the API Simulator 
 ### Task preparation and implementation:
     website library.demo.local bezoeken
+  [APIwebsite](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/api's%20website.png)
    ##### Get/books
      Lijst boeken op met de get API
      cli : curl -X GET "http://library.demo.local/api/v1/books" -H
           "accept: application/json"
      Gui : Klik op try it out en vervolgens execute
-     
+    
   ##### Token via Post /loginViaBasic API
     Inloggen via deze api, vervolgens krijg je een token.
     bv. "token": "cisco|KZZzteQbC5iV3HKEzB7hCJ6qHQXen4rLGh72YJKeVfs"
+   [token](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/loginbasicpostmantoken.png)
   ##### Boek toevoegen via Post /book API  
     Cli:curl -X POST "http://library.demo.local/api/v1/books" -H "accept: application/json" -H "X-API-KEY: cisco|Ujk15vEJPGys6ZxkKpDCCnMaKH5L5miN5h1Sh1Qq2B8" -H "Content-Type: application/json" -d "{ \"id\": 3,   \"title\": \"31 Days Before Your CCNA Exam\", \"author\": \"Allan Johnson\"}"
     Gui: Op de API klikken, try it out en vervolgens de variabelen veranderen
@@ -255,7 +257,7 @@
     401 Server response : Spaties weghalen bij api variabelen wanneer je de naam veranderd van een boek
 ### Task verification
 ##### Voorbeeld get/books
-[getbooks]()
+[getbooks](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/getbooks.png))
 ## Use Postman to Make API Calls to the API Simulator 
 ### Task preparation and implementation:
  ##### Boeken lijsten via Get/books API
@@ -278,6 +280,7 @@
     Postman verkeerde in een goede werking
 ### Task verification
     Ga naar de eerste GET tab, druk op send en vervolgens op body
+   [boekenpostman](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/getbookspostmanverificatie.png)
 
 ## Use Python to Add 100 Books to the API Simulator
 ### Task preparation and implementation:
@@ -285,7 +288,7 @@
     1. Faker module: deze verzint random namen
     2.Loop voor de faker module die ervoor zorgt dat deze 100x gebruikt wordt
     3.De requesten om de boeken te maken
-   [100bookscript]()
+   [100bookscript](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/add100RandomBooks.py)
 ### Task troubleshooting:
     Het script werkte naar behoren
 ### Task verification
