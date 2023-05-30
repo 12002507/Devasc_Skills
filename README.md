@@ -953,6 +953,7 @@ Uitvoeren
     -Let op dat niet ieder commando gaat op switch op router bijvoorbeeld vlan's aanmaken.*
     -Als je niet rechtreeks verbonden bent met het apparaat NAT ip adres gebruiken.
 
+
 #LAB 7 – YANG, NETCONFIG and RESTCONFIG 
 ## Part 1: Install the CSR1000v VM
 ### Task preparation and implementation:
