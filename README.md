@@ -89,7 +89,8 @@
   ## 1.3 Installatie van tools/packages op Windows OS (verdiepingsopdracht)
   ### Python 3.8 en PIP installatie
   
-    Download Python 3.8 van de officiële website 
+   *Download Python 3.8 van de officiële website* 
+           
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     python get-pip.py
 
@@ -224,22 +225,23 @@
    #### Controleren op geïnstalleerde pakketten in de virtuele omgeving: 
     pip3 freeze
    ####  Controleren op geïnstalleerde pakketten in het hele systeem: 
-     python3 -m pip freeze
+    python3 -m pip freeze
      
 # LAB 2 – EXPLORE REST APIs WITH API SIMULATOR AND POSTMAN 
 ## Explore API Documentation Using the API Simulator 
 ### Task preparation and implementation:
-    website library.demo.local bezoeken
+   *website library.demo.local bezoeken*
   [APIwebsite](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/api's%20website.png)
    ##### Get/books
-     Lijst boeken op met de get API
-     cli : curl -X GET "http://library.demo.local/api/v1/books" -H
-          "accept: application/json"
-     Gui : Klik op try it out en vervolgens execute
+   *Lijst boeken op met de get API*
+          
+    cli : curl -X GET "http://library.demo.local/api/v1/books" -H
+         "accept: application/json"
+    Gui : Klik op try it out en vervolgens execute
     
   ##### Token via Post /loginViaBasic API
-    Inloggen via deze api, vervolgens krijg je een token.
-    bv. "token": "cisco|KZZzteQbC5iV3HKEzB7hCJ6qHQXen4rLGh72YJKeVfs"
+   *Inloggen via deze api, vervolgens krijg je een token.
+   bv. "token": "cisco|KZZzteQbC5iV3HKEzB7hCJ6qHQXen4rLGh72YJKeVfs"*
    [token](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/loginbasicpostmantoken.png)
   ##### Boek toevoegen via Post /book API  
     Cli:curl -X POST "http://library.demo.local/api/v1/books" -H "accept: application/json" -H "X-API-KEY: cisco|Ujk15vEJPGys6ZxkKpDCCnMaKH5L5miN5h1Sh1Qq2B8" -H "Content-Type: application/json" -d "{ \"id\": 3,   \"title\": \"31 Days Before Your CCNA Exam\", \"author\": \"Allan Johnson\"}"
