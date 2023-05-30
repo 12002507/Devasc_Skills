@@ -227,11 +227,44 @@
      python3 -m pip freeze
      
 # LAB 2 – EXPLORE REST APIs WITH API SIMULATOR AND POSTMAN 
+## Explore API Documentation Using the API Simulator 
+### Task preparation and implementation:
+    website library.demo.local bezoeken
+   ##### Get/books
+     Lijst boeken op met de get API
+     cli : curl -X GET "http://library.demo.local/api/v1/books" -H
+          "accept: application/json"
+     Gui : Klik op try it out en vervolgens execute
+     
+  ##### Token via Post /loginViaBasic API
+    Inloggen via deze api, vervolgens krijg je een token.
+    bv. "token": "cisco|KZZzteQbC5iV3HKEzB7hCJ6qHQXen4rLGh72YJKeVfs"
+  ##### Boek toevoegen via Post /book API  
+    Cli:curl -X POST "http://library.demo.local/api/v1/books" -H "accept: application/json" -H "X-API-KEY: cisco|Ujk15vEJPGys6ZxkKpDCCnMaKH5L5miN5h1Sh1Qq2B8" -H "Content-Type: application/json" -d "{ \"id\": 3,   \"title\": \"31 Days Before Your CCNA Exam\", \"author\": \"Allan Johnson\"}"
+    Gui: Op de API klikken, try it out en vervolgens de variabelen veranderen
+  ##### Boeken lijsten via Get/books API
+    Gui: Op API drukken, try it out en execute.
+  ##### Specifieke boeken lijsten via Get/books{Id} API
+    Cli: curl -X GET "http://library.demo.local/api/v1/books/4" -H "accept: application/json"
+    Gui: Op de API klikken, try it out, vul het id van het boek en en execute
+  ##### Specifieke boeken verwijderen via DELETE/books{Id} API  
+     Cli: curl -X DELETE "http://library.demo.local/api/v1/books/5" -H "accept: application/json" -H "X-API-KEY: cisco|Ujk15vEJPGys6ZxkKpDCCnMaKH5L5miN5h1Sh1Qq2B8"
+     Gui: Op de API klikken, try it out, vul het id van het boek en en execute
+     
+### Task troubleshooting:
+    401 Server response : Spaties weghalen bij api variabelen.
+### Task verification
+##### Voorbeeld get/books
+[getbooks]()
+## Use Postman to Make API Calls to the API Simulator 
+### Task preparation and implementation:
+
+### Task troubleshooting:
+### Task verification
+## Use Python to Add 100 Books to the API Simulator
 ### Task preparation and implementation:
 ### Task troubleshooting:
 ### Task verification
-
-
 [Lab 2 script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/juniper%20verificatie.png)
 # LAB 3 – PYTHON REVIEW – DEVELOPMENT TOOLS AND CLASSES 
 
@@ -379,7 +412,6 @@
     - TFTP veranderen van poort
     -ip tftp source-interface GigabitEthernet 0/0.10
     -SSH version 2 gebruiken
-    -Ssh version 2
     -Basis configuratie heropzetten router
     -Vergeet default gateway niet in te stellen op de router bij TFTP van de config naar het apparaat.
   
