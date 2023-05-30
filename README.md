@@ -227,6 +227,11 @@
      python3 -m pip freeze
      
 # LAB 2 – EXPLORE REST APIs WITH API SIMULATOR AND POSTMAN 
+### Task preparation and implementation:
+### Task troubleshooting:
+### Task verification
+
+
 [Lab 2 script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%201%20-%20Python%20Experiments/juniper%20verificatie.png)
 # LAB 3 – PYTHON REVIEW – DEVELOPMENT TOOLS AND CLASSES 
 
@@ -282,7 +287,7 @@
     your_loc = Location("Your_Name", "Your_Country")
     your_loc.myLocation()
 
-### Task troubleshooting:
+#### Task troubleshooting:
 #### Task verification
 
     Hi, my name is Tomas and I live in Portugal.
