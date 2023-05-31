@@ -267,8 +267,8 @@
  ##### Token via Post /loginViaBasic API
     Selecteer POST , vul de URL in, Authorize met de credentials en druk op send
  ##### Boek toevoegen via Post /book API     
-  *1.Selecteer POST , vul de URL in, Authorize met type API key,vol X-API-KEY in en plak de token.
-   2.Bij authroization klik je op body, raw en vervolgens tekst in JSON
+  *1.Selecteer POST , vul de URL in, Authorize met type API key,vol X-API-KEY in en plak de token.,
+   2.Bij authroization klik je op body, raw en vervolgens tekst in JSON,
    3.Vul het object in*
       
      {
