@@ -364,7 +364,7 @@
 
  ## LAB 4 - NETWORK INFRASTRUCTURE AND TROUBLESHOOTING
 
-  #### Task preparation and implementation
+  ### Task preparation and implementation
   
    *-Line console en vty instellen
    -Vlans instellen
@@ -511,10 +511,10 @@
     -git commit doen op de file
 
 
-#### Task troubleshooting:
+### Task troubleshooting:
 *Link gegeven in Devnet cursus voor remote werkte niet bij mij
 juiste link: git remote set-url origin https://github.com/12002507/devasc-study-team.git*
-#### Task verification:
+### Task verification:
 #### File push to github
    *-token creeren  https://github.com/settings/tokens
     -git push origin branchnaam*
@@ -1248,10 +1248,9 @@ Script nccclient:
     ip http secure-server
     ip http authentication local
 
+### Task troubleshooting:
 
-Task troubleshooting:
-
-Task verification:
+### Task verification:
 
     ssh cisco@192.168.56.101
     ping -c 5 192.168.56.101
