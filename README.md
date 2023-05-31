@@ -172,10 +172,10 @@
     python3 -m jupyter notebook
 
   #### Python IDLE verificatie
-  * Typ "idle" in de terminal.*
+  *Typ "idle" in de terminal.*
 
   #### Visual Studio Code
-  * Visual Studio Code kan niet worden geïnstalleerd op de serverversie van Ubuntu.*
+  *Visual Studio Code kan niet worden geïnstalleerd op de serverversie van Ubuntu.*
 
 ## Part 5: Python Programming Review 
 ### Task preparation and implementation:
@@ -228,7 +228,7 @@
     python3 -m pip freeze
      
 # LAB 2 – EXPLORE REST APIs WITH API SIMULATOR AND POSTMAN 
-## Explore API Documentation Using the API Simulator 
+## Part: 1 Explore API Documentation Using the API Simulator 
 ### Task preparation and implementation:
    *website library.demo.local bezoeken*
   [APIwebsite](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/api's%20website.png)
@@ -260,7 +260,7 @@
 ### Task verification
 ##### Voorbeeld get/books
 [getbooks](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/getbooks.png)
-## Use Postman to Make API Calls to the API Simulator 
+## Part 2: Use Postman to Make API Calls to the API Simulator 
 ### Task preparation and implementation:
  ##### Boeken lijsten via Get/books API
     Maak een nieuwe request, vink GET aan, vul de URL in en druk op send
@@ -286,7 +286,7 @@
    *Ga naar de eerste GET tab, druk op send en vervolgens op body*
    [boekenpostman](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/getbookspostmanverificatie.png)
 
-## Use Python to Add 100 Books to the API Simulator
+## Part 3:Use Python to Add 100 Books to the API Simulator
 ### Task preparation and implementation:
   ##### Het script bestaat uit 3 grote delen
    1. Faker module: deze verzint random namen
