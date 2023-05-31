@@ -95,7 +95,7 @@
     python get-pip.py
 
  ### Visual Studio Code
-  * Download Visual Studio Code van de officiële website en volg de installatie-instructies.*
+  *Download Visual Studio Code van de officiële website en volg de installatie-instructies.*
 
   ### Jupyter Notebook
   *Open de opdrachtprompt en voer de volgende commando's uit:*
