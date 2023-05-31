@@ -1007,7 +1007,7 @@ Uitvoeren
     print(output)
 
     connection.disconnect()
- ###Part 3: Connect to IOS-XE devices
+ ### Part 3: Connect to IOS-XE devices
 #### Send show commands to multiple devices
     from netmiko import ConnectHandler
     import threading
