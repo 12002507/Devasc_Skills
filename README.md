@@ -286,7 +286,7 @@
    *Ga naar de eerste GET tab, druk op send en vervolgens op body*
    [boekenpostman](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/getbookspostmanverificatie.png)
 
-## Part 3:Use Python to Add 100 Books to the API Simulator
+## Part 3: Use Python to Add 100 Books to the API Simulator
 ### Task preparation and implementation:
   ##### Het script bestaat uit 3 grote delen
    1. Faker module: deze verzint random namen
@@ -373,6 +373,15 @@
   - Ssh versie 2 aanzetten
   - Duplex en speed op poorten instellen
   - Domain ingesteld*
+
+| Device          | Interface | VLAN | IP            |
+| --------------- | --------- | ---- | ------------- |
+| LAB-RACK08-R03  | G0/0.10   | 10   | 172.16.8.4    |
+| LAB-RACK08-R03  | G0/0.40   | 40   | 172.16.8.52   |
+| LAB-RACK08-R03  | G0/0      |      |               | 
+| LAB-RACK08-R03  | G0/1      |      | 10.199.66.108 | 
+| LAB-RACK08-SW03 | VLAN10    |  10  | 172.16.8.5    | 
+| LAB-RACK08-SW03 | VLAN40    |  40  | 172.16.8.5    | 
    [Netwerk tekening](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/cisco.drawio.png)
    [Ip plan](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/Ip%20plan.png)
  
