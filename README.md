@@ -177,7 +177,7 @@
   #### Visual Studio Code
   * Visual Studio Code kan niet worden geïnstalleerd op de serverversie van Ubuntu.*
 
-## Python Programming Review 
+## Part 5: Python Programming Review 
 ### Task preparation and implementation:
 
   #### Python3 installeren: 
@@ -199,7 +199,7 @@
     python3 script.py
 
 
-## Explore Python Development Tools 
+## part 6. Explore Python Development Tools 
 ### Task preparation and implementation:
 
    #### Virtuele omgeving aanmaken:
