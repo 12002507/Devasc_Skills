@@ -986,7 +986,7 @@ Uitvoeren
     
     
 #### Execute a script with a statements (if, ifelse, else)
-
+    from netmiko import ConnectHandler
     device = {
     'device_type': 'cisco_ios',
         'host': '172.16.8.5',
