@@ -576,7 +576,7 @@ juiste link: git remote set-url origin https://github.com/12002507/devasc-study-
 
 ### Task troubleshooting:
 ### Task verification: 
-[Unittest script]()
+[Unittest script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/unittestverification.py)
 ## Part 3: Parse Different Data Types with Python Cisco
 ### Task preparation and implementation:
 #### XML in python parsing
