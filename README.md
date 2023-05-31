@@ -457,7 +457,7 @@
    [config switch](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/lab-RA08-SW01)
  
  # LAB 5: Software Development and Design Content
- ### Part 1 Software Version Control with Git  
+ ### Part 1: Software Version Control with Git  
  ### Task preparation and implementation:
 #### Git repository configureren
 
