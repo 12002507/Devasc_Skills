@@ -550,9 +550,11 @@ juiste link: git remote set-url origin https://github.com/12002507/devasc-study-
   #### Creer unit tests
    
   *Importeer de module*
+    
     import unittest
     from recursive_json_search import *
     from test_data import *
+    
    *voeg na het importeren de code toe*
     
     class json_search_test(unittest.TestCase):
