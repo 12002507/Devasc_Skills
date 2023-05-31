@@ -272,11 +272,11 @@
   3. Vul het object in*
       
          {
-    "id": 4,
-    "title": "IPv6 Fundamentals",
-    "author": "Rick Graziani",
-    "isbn": "978 158144778"
-    }
+         "id": 4,
+         "title": "IPv6 Fundamentals",
+         "author": "Rick Graziani",
+         "isbn": "978 158144778"
+         }
     4.Druk op send
  
 ### Task troubleshooting:
