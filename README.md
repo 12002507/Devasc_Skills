@@ -2,7 +2,7 @@
 
 # LAB 1 - PYTHON EXPERIMENTEN
 
-## 1.1 Installatie van tools/packages op Ubuntu DEVASC-LABVM:
+## Part 1: Installatie van tools/packages op Ubuntu DEVASC-LABVM:
 ### Task implementation
  #### Python 3.8 en PIP installatie
   
@@ -57,7 +57,7 @@
   #### Visual Studio Code
   *Open Visual Studio Code*
 
-  ## 1.2 Uitvoeren van geopy en timedate Python-scripts op DEVASC-LABVM met behulp van de tools (1.1):
+  ## Part 2: Uitvoeren van geopy en timedate Python-scripts op DEVASC-LABVM met behulp van de tools (1.1):
   
     -timedate.py
     -geopy-geocoders_location.py
@@ -86,7 +86,7 @@
   #### Jupyter Notebook
   *Voer het commando "jupyter notebook" uit in de terminal, ga naar het juiste pad op de website, kopieer de code en voer deze uit.*
 
-  ## 1.3 Installatie van tools/packages op Windows OS (verdiepingsopdracht)
+  ## Part 3: Installatie van tools/packages op Windows OS (verdiepingsopdracht)
   ### Python 3.8 en PIP installatie
   
    *Download Python 3.8 van de officiële website* 
@@ -127,7 +127,7 @@
   *Voer het commando "jupyter notebook" uit in de opdrachtprompt om Jupyter Notebook te starten.*
  
 
-  ## 1.4 Installatie van tools/packages op Ubuntu 22.04.01 LTS (verdiepingsopdracht)
+  ## Part 4: Installatie van tools/packages op Ubuntu 22.04.01 LTS (verdiepingsopdracht)
   ### Task preparation and implementation
   #### Python en PIP installatie
   *Voer de volgende commando's uit in de terminal:*
