@@ -984,7 +984,7 @@ Uitvoeren
 
     disconnect_from_device(connection)
     
-    from netmiko import ConnectHandler
+    
 #### Execute a script with a statements (if, ifelse, else)
 
     device = {
