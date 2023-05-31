@@ -1160,6 +1160,7 @@ Uitvoeren
 ### Task verification:
    *Apparaten getest via visual studio code*
   [Netmiko scripts](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Netmiko%20lab%206%20scripten.py)
+  [Netmiko cisco XE scripts](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/netmikoCiscoEX.py)
 ### Task troubleshooting:
    *-Zorgen dat de username en password volledig correct is geschreven
     -Let op dat niet ieder commando gaat op switch op router bijvoorbeeld vlan's aanmaken.*
