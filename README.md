@@ -72,7 +72,7 @@
     pip install folium
 
  ### Task troubleshooting
- 
+ *sudo apt upgrade uitvoeren, anders worden datetime,geopy en folium niet gevonden*
 
   ### Task verification
   #### timedate.py
