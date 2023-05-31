@@ -358,6 +358,9 @@
     Hi, my name is Amare and I live in Kenya.
     Hi, my name is Your_Name and I live in Your_Country.
     devasc@labvm:~/labs/devnet-src/python$
+   [Parse Json script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%203%20-%20Python%20review%20-%20Development%20tools%20and%20classes/parsejson.py)
+   [Parse XML script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%203%20-%20Python%20review%20-%20Development%20tools%20and%20classes/parsexml.py)
+   [Parse Yaml script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%203%20-%20Python%20review%20-%20Development%20tools%20and%20classes/parseyaml.py)
 
  ## LAB 4 - NETWORK INFRASTRUCTURE AND TROUBLESHOOTING
 
