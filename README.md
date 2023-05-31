@@ -623,22 +623,22 @@ Uitvoeren
 
 ##### python voorbeeld script, ieder script heeft deze belangrijke elementen
         
-    from netmiko import ConnectHandler              *netmiko module importeren
+    from netmiko import ConnectHandler                *netmiko module importeren
    	from getpass import getpass
 
    	cisco1 = { 
-	   "device_type": "cisco_ios",              *Variabelen waar informatie staat over connecties met de apparaten zoals login gegevens
+	   "device_type": "cisco_ios",                *Variabelen waar informatie staat over connecties met de apparaten zoals login gegevens
     "host": "172.16.8.4",
     "username": "admin",
     "password": "Administrator123.",
     }
     
-     command = "show ip int brief",                 *Het commando dat wordt doorgestuurd
+     command = "show ip int brief",                   *Het commando dat wordt doorgestuurd
 
      with ConnectHandler(**cisco1) as net_connect:
-     output = net_connect.send_command(command)     *output versturen
+     output = net_connect.send_command(command)       *output versturen
 
-    	print()                                     *informatie Printen op het scherm
+    	print()                                       *informatie Printen op het scherm
     	print(output)
      
      print()
@@ -1247,8 +1247,8 @@ Uitvoeren
   - Grub Loading stage 2 : cisco booten via vga optie, andere werkt niet*
 ## Part 2: Explore YANG Models
 ### Task preparation and implementation:
-     Cd devnet-src/
-     Mkdir pyang
+    Cd devnet-src/
+    Mkdir pyang
     wget https://raw.githubusercontent.com/YangModels/yang/main/vendor/cisco/xe/1693/ietf-interfaces.yang
 [wget](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/wget.png)
 ### Task verification:
