@@ -57,7 +57,7 @@
   #### Visual Studio Code
   *Open Visual Studio Code*
 
-  ## Part 2: Uitvoeren van geopy en timedate Python-scripts op DEVASC-LABVM met behulp van de tools (1.1):
+  ## Part 2: Uitvoeren van geopy en timedate Python-scripts op DEVASC-LABVM met behulp van de tools :
   
     -timedate.py
     -geopy-geocoders_location.py
