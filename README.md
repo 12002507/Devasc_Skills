@@ -259,7 +259,7 @@
    *401 Server response : Spaties weghalen bij api variabelen wanneer je de naam veranderd van een boek*
 ### Task verification
 ##### Voorbeeld get/books
-[getbooks](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/getbooks.png))
+[getbooks](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/getbooks.png)
 ## Use Postman to Make API Calls to the API Simulator 
 ### Task preparation and implementation:
  ##### Boeken lijsten via Get/books API
