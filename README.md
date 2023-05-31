@@ -1229,7 +1229,7 @@ Uitvoeren
    - Als je niet rechtreeks verbonden bent met het apparaat NAT ip adres gebruiken.
    - Bij XE apparaten zorg ervoor dat cisco XE in het apparaattype staat.
 
-#LAB 7 – YANG, NETCONFIG and RESTCONFIG 
+# LAB 7 – YANG, NETCONFIG and RESTCONFIG 
 ## Part 1: Install the CSR1000v VM
 ### Task preparation and implementation:
   - Vm downloaden
