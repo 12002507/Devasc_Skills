@@ -1245,7 +1245,7 @@ Uitvoeren
   - Vm downloaden
   - Vm opstarten
   - Vm terug afluisten en vervolgens iso in disk drive 1 steken 
-  - show ip int brief*
+  - show ip int brief
    [CSR1000 installatie](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/vmware%20installatie.png)
    [csr1000 succesvol gui na installatie](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/cisco%20gui.png)
    
