@@ -288,9 +288,9 @@
 ## Use Python to Add 100 Books to the API Simulator
 ### Task preparation and implementation:
   ##### Het script bestaat uit 3 grote delen
-   *1. Faker module: deze verzint random namen
-   2.Loop voor de faker module die ervoor zorgt dat deze 100x gebruikt wordt
-   3.De requesten om de boeken te maken*
+   - Faker module: deze verzint random namen
+   - Loop voor de faker module die ervoor zorgt dat deze 100x gebruikt wordt
+   - De requesten om de boeken te maken*
    [100bookscript](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/add100RandomBooks.py)
 ### Task troubleshooting:
    *Het script werkte naar behoren*
