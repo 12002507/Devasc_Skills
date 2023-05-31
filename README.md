@@ -270,14 +270,15 @@
   1. Selecteer POST , vul de URL in, Authorize met type API key,vol X-API-KEY in en plak de token.,
   2. Bij authroization klik je op body, raw en vervolgens tekst in JSON,
   3. Vul het object in*
-      
-         {
-         "id": 4,
-         "title": "IPv6 Fundamentals",
-         "author": "Rick Graziani",
-         "isbn": "978 158144778"
-         }
-    4.Druk op send
+    
+    {
+     "id": 4,
+     "title": "IPv6 Fundamentals",
+     "author": "Rick Graziani",
+     "isbn": "978 158144778"
+     }
+     
+ 4.Druk op send
  
 ### Task troubleshooting:
    *Postman verkeerde in een goede werking*
