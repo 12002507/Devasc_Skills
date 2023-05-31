@@ -517,8 +517,11 @@ juiste link: git remote set-url origin https://github.com/12002507/devasc-study-
     -git push origin branchnaam*
 
 ## Part 2: Create a Python Unit Test 3.5.7 
-################################################################
-#
+### Task preparation and implementation:
+
+### Task troubleshooting:
+### Task verification: 
+
 ## Part 3: Parse Different Data Types with Python Cisco
 ### Task preparation and implementation:
 #### XML in python parsing
@@ -554,7 +557,7 @@ juiste link: git remote set-url origin https://github.com/12002507/devasc-study-
     print(json.dumps(ouryaml, indent=4))
 ### Task troubleshooting: /
 
-#### Task verification: 
+### Task verification: 
 Uitvoeren
 [lab5script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/lab5scripten.py)
 ## LAB 6 – Python Network automation with netmiko
