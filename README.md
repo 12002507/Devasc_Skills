@@ -267,11 +267,11 @@
  ##### Token via Post /loginViaBasic API
     Selecteer POST , vul de URL in, Authorize met de credentials en druk op send
  ##### Boek toevoegen via Post /book API     
-  *1.Selecteer POST , vul de URL in, Authorize met type API key,vol X-API-KEY in en plak de token.,
-   2.Bij authroization klik je op body, raw en vervolgens tekst in JSON,
-   3.Vul het object in*
+  1. Selecteer POST , vul de URL in, Authorize met type API key,vol X-API-KEY in en plak de token.,
+  2. Bij authroization klik je op body, raw en vervolgens tekst in JSON,
+  3. Vul het object in*
       
-     {
+         {
     "id": 4,
     "title": "IPv6 Fundamentals",
     "author": "Rick Graziani",
@@ -288,9 +288,9 @@
 ## Use Python to Add 100 Books to the API Simulator
 ### Task preparation and implementation:
   ##### Het script bestaat uit 3 grote delen
-   - Faker module: deze verzint random namen
-   - Loop voor de faker module die ervoor zorgt dat deze 100x gebruikt wordt
-   - De requesten om de boeken te maken*
+   1. Faker module: deze verzint random namen
+   2. Loop voor de faker module die ervoor zorgt dat deze 100x gebruikt wordt
+   3. De requesten om de boeken te maken*
    [100bookscript](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%202%20-%20Explore%20rest%20APIs%20with%20API-simulator%20and%20postman/add100RandomBooks.py)
 ### Task troubleshooting:
    *Het script werkte naar behoren*
@@ -366,36 +366,36 @@
 
   ### Task preparation and implementation
   
-   *-Line console en vty instellen
-   -Vlans instellen
-   -Ip’s op poorten zetten
-   -Ssh versie 2 aanzetten
-   -Duplex en speed op poorten instellen
-   -Domain ingesteld*
+  - Line console en vty instellen
+  - Vlans instellen
+  - Ip’s op poorten zetten
+  - Ssh versie 2 aanzetten
+  - Duplex en speed op poorten instellen
+  - Domain ingesteld*
    [Netwerk tekening](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/cisco.drawio.png)
    [Ip plan](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/Ip%20plan.png)
  
   #### Proactively determine what is needed to ensure the continuity of the system and network infrastructure:
   
-   *-DHCP moet werken voor de users
-   -Vlan moet ingesteld worden ter verdeling van het netwerk
-   -HSRP voor redundantie en schaalbaarheid*
+  - DHCP moet werken voor de users
+  - Vlan moet ingesteld worden ter verdeling van het netwerk
+  - HSRP voor redundantie en schaalbaarheid*
   
   #### Apply best practices to configuration and network security:
   
-   *-Wachtwoorden gezet op line console 0, line vty
-   -Wachtwoord encryptie
-   -Maximale log-out timer
-   -Wachtwoord minimale grootte
-   -Ongebruikte poorten dichtgezet
-   -Ssh version 2 rsa key 1024*
+  - Wachtwoorden gezet op line console 0, line vty
+  - Wachtwoord encryptie
+  - Maximale log-out timer
+  - Wachtwoord minimale grootte
+  - Ongebruikte poorten dichtgezet
+  - Ssh version 2 rsa key 1024*
   
 
   #### Make sure you can backup and restore device configuration from a backup environment:
   
-   *-Zorgen dat tftp langs de subinterface 10 gaat.
-   -basis configuratie doen
-   -default gateway toevoegen en poorten openzetten.*
+  - Zorgen dat tftp langs de subinterface 10 gaat.
+  - basis configuratie doen
+  - default gateway toevoegen en poorten openzetten.*
  
 
   #### Router:
@@ -440,18 +440,18 @@
   ### Task Troubleshooting
   #### Document your findings and important commands.
   
-  *-TFTP veranderen van poort
-   -ip tftp source-interface GigabitEthernet 0/0.10
-   -SSH version 2 gebruiken
-   -Basis configuratie heropzetten router
-   -Vergeet default gateway niet in te stellen op de router bij TFTP van de config naar het apparaat.*
+  - TFTP veranderen van poort
+  - ip tftp source-interface GigabitEthernet 0/0.10
+  - SSH version 2 gebruiken
+  - Basis configuratie heropzetten router
+  - Vergeet default gateway niet in te stellen op de router bij TFTP van de config naar het apparaat.*
   
 
   ### Task verification:
   
-   *-Connective test
-   -SSH naar verschillende apparaten
-   -TFTP wipe test op tijd*
+   - Connective test
+   - SSH naar verschillende apparaten
+   - TFTP wipe test op tijd*
    [config router](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/lab-RA08-R03)
    [config switch](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%204%20-%20Network%20infrastructure%20and%20troubleshooting/lab-RA08-SW01)
  
@@ -516,8 +516,11 @@
 juiste link: git remote set-url origin https://github.com/12002507/devasc-study-team.git*
 ### Task verification:
 #### File push to github
-   *-token creeren  https://github.com/settings/tokens
-    -git push origin branchnaam*
+   - token creeren  https://github.com/settings/tokens
+   - git pull
+   - git add .
+   - git commit "naam toevoegen"
+   - git push origin branchnaam*
 
 ## Part 2: Create a Python Unit Test 3.5.7 
 ### Task preparation and implementation:
@@ -574,7 +577,7 @@ juiste link: git remote set-url origin https://github.com/12002507/devasc-study-
      if __name__ == '__main__':
      unittest.main()
 
-### Task troubleshooting:
+### Task troubleshooting: /
 ### Task verification: 
 [Unittest script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%205%20-%20Software%20development%20and%20design%20content/unittestverification.py)
 ## Part 3: Parse Different Data Types with Python Cisco
@@ -1220,28 +1223,28 @@ Uitvoeren
   [Netmiko scripts](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/Netmiko%20lab%206%20scripten.py)
   [Netmiko cisco XE scripts](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%206%20-%20Python%20network%20automation%20with%20netmiko/netmikoCiscoEX.py)
 ### Task troubleshooting:
-   *-Zorgen dat de username en password volledig correct is geschreven
-    -Let op dat niet ieder commando gaat op switch op router bijvoorbeeld vlan's aanmaken.*
-    -Als je niet rechtreeks verbonden bent met het apparaat NAT ip adres gebruiken.
-    -Bij XE apparaten zorg ervoor dat cisco XE in het apparaattype staat.
+   - Zorgen dat de username en password volledig correct is geschreven
+   - Let op dat niet ieder commando gaat op switch op router bijvoorbeeld vlan's aanmaken.*
+   - Als je niet rechtreeks verbonden bent met het apparaat NAT ip adres gebruiken.
+   - Bij XE apparaten zorg ervoor dat cisco XE in het apparaattype staat.
 
 #LAB 7 – YANG, NETCONFIG and RESTCONFIG 
 ## Part 1: Install the CSR1000v VM
 ### Task preparation and implementation:
-  *-Vm downloaden
-   -Vm opstarten
-   -Vm terug afluisten en vervolgens iso in disk drive 1 steken
-   -show ip int brief*
+  - Vm downloaden
+  - Vm opstarten
+  - Vm terug afluisten en vervolgens iso in disk drive 1 steken 
+  - show ip int brief*
    [CSR1000 installatie](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/vmware%20installatie.png)
    [csr1000 succesvol gui na installatie](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/cisco%20gui.png)
    
 ### Task verification:
-   *-Vm pingen van devasc in terminal
-   -Op ip van de switch de webgui openen*
+  - Vm pingen van devasc in terminal
+  - Op ip van de switch de webgui openen*
 
 ### Task troubleshooting:
-   *-cisco VM werkt niet goed in virtual box, vmware gebruiken
-   -Grub Loading stage 2 : cisco booten via vga optie, andere werkt niet*
+  - cisco VM werkt niet goed in virtual box, vmware gebruiken
+  - Grub Loading stage 2 : cisco booten via vga optie, andere werkt niet*
 ## Part 2: Explore YANG Models
 ### Task preparation and implementation:
      Cd devnet-src/
@@ -1254,9 +1257,9 @@ Uitvoeren
    *Link github werkte niet, werkende link : https://github.com/YangModels/yang/blob/main/vendor/cisco/xe/1693/ietf-interfaces.yang*
 ## Part 3: Use NETCONF to Access an IOS XE Device
 ### Task preparation and implementation:
-   *-ssh connectie: ssh cisco@192.168.206.128
-   -Netconf via ssh:  ssh cisco@192.168.206.128 -p 830 -s Netconf
-   -script uitvoeren: python3 ncclient-netconf.py*
+   - Ssh connectie: ssh cisco@192.168.206.128
+   - Netconf via ssh:  ssh cisco@192.168.206.128 -p 830 -s Netconf
+   - Script uitvoeren: python3 ncclient-netconf.py*
 Script nccclient:
        
     from ncclient import manager
@@ -1281,10 +1284,11 @@ Script nccclient:
 [script](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/sciptncc7.py)
 
 ### Task verification:
-   *-Ping -c 5 192.168.206.128
-   -show platform software yang-management process
-   -show Netconf-yang sessions
-   -pip3 list --format=columns | more*
+
+    Ping -c 5 192.168.206.128
+    show platform software yang-management process
+    show Netconf-yang sessions
+    pip3 list --format=columns | more*
 [running](https://github.com/12002507/Devasc_Skills_LV/blob/master/Lab%207%20-%20NETCONFIG%20and%20YANG/running%20processes.png)
 ### Task troubleshooting:
    *]]>]]> : deze niet toevoegen bij commando’s, komen van de router*
